@@ -158,11 +158,32 @@ margin-left: 150px;
   top: 150px;
   left: 500px;
 }
-.badge-plant-store{
-  height: 700px;
-  border: 2px solid orange;
+
+.latest-deal{
+  max-width: 100%;
+  height: 138px;
 }
 
+.latest-deal-title{
+  text-align: center;
+}
+.latest-deal-description{
+  text-align: center;
+}
+.card-layout{
+  display: flex;
+ border: 2px solid black;
+ margin-left: 150px;
+ margin-right: 150px;
+ 
+}
+.card-layout-1-description{
+  position:relative;
+  top:200px;
+  color: white;}
+/* .card-layout-1{
+position: relative;
+} */
 
 
 /* Responsive */
