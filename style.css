@@ -94,6 +94,7 @@
 .our-plants{
 width: 1140px;
 height:138px;
+margin-left: 150px;
 }
 
 
@@ -101,6 +102,22 @@ height:138px;
 .banner-container{
     width: 500px;
     height: 299px;
+    
+}
+.our-plant-title{
+  text-align: center;
+}
+.our-plant-description{
+  text-align: center;
+}
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+
 }
 /* Responsive */
 @media only screen and (max-width: 600px) {
