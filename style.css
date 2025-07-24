@@ -1,0 +1,145 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+.font-1{
+    font-weight:400px;
+    font-size: 22px;
+}
+.prm-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.second-color{
+    color: rgba(255, 255, 255, 1);
+}
+.third-color{
+    color: rgba(233, 90, 8, 1);
+}
+.logo-1{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 71px;
+    padding-right: 150px;
+    padding left:150px;
+    
+}
+.logo{
+    padding-left: 150px;
+}
+.nav-group-1{
+    display: flex;
+    justify-content: space-around;
+    width: 410px;
+    padding: auto 0px;
+    align-items: center;
+    padding-left:0px;
+    border: 2px solid red;
+    /* text-decoration: none; */
+}
+.group{
+    text-decoration: none;
+}
+.nav-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    height: 461px;
+     width: 1140px;
+    margin:120px 150px;
+    border: 2px solid green;
+    /* padding left:150px; */
+    
+}
+.banner-title{
+    width:500px;
+    /* height: 178px; */
+    border: 2px solid yellow;
+    /* margin-left: 150px; */
+}
+.banner-description{
+    width:500px;
+    /* height: 108px; */
+     border: 2px solid blue;
+}
+.banner-image{
+    width: 570px;
+    height: 355px;
+    border: 2px solid blue;
+     margin-right: 150px;
+    
+}
+.banner-container{
+    width: 500px;
+    height: 299px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .group {
+    margin: 0px;
+    
+  }
+  .nav-group-1{
+    display: none;
+  }
+
+  .logo-1{
+    width: 361px;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    
+    padding:0px;
+    margin:10px 15px;
+  }
+  .logo{
+    padding:0px;
+  }
+  .cart-1{
+
+    /* margin-right:0px;
+    align-items: center; */
+  }
+  .banner{
+    flex-direction: column-reverse;
+    border: 3px solid red;
+    margin-top: 30px;
+    width: 361px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .banner-image{
+    padding-top:170px;
+    width: 500px;
+    height:245px;
+    margin-right: 0px;
+    margin-top: ;
+  }
+  .banner-container{
+    width: 361px;
+    height: 147px;
+   
+  }
+}
