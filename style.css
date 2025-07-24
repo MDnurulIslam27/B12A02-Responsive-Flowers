@@ -72,6 +72,7 @@
     /* padding left:150px; */
     
 }
+.
 .banner-title{
     width:500px;
     /* height: 178px; */
@@ -96,6 +97,7 @@
 }
 
 
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
   .group {
@@ -109,7 +111,7 @@
   .logo-1{
     width: 361px;
     justify-content: space-between;
-    /* border: 1px solid blue; */
+    
     
     padding:0px;
     margin:10px 15px;
