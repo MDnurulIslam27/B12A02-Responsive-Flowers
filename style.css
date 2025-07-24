@@ -119,6 +119,19 @@ margin-left: 150px;
   margin-right: 150px;
 
 }
+.plant-name{
+  text-align: center;
+}
+.plant-price{
+  text-align: center;
+}
+.prm-btn{
+  width: 270px;
+  height: 50px;
+  background-color: rgba(233, 90, 8, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
 /* Responsive */
 @media only screen and (max-width: 600px) {
   .group {
@@ -139,11 +152,6 @@ margin-left: 150px;
   .logo{
     padding:0px;
   }
-  .cart-1{
-
-    /* margin-right:0px;
-    align-items: center; */
-  }
   .banner{
     flex-direction: column-reverse;
     border: 3px solid red;
@@ -163,5 +171,17 @@ margin-left: 150px;
     width: 361px;
     height: 147px;
    
+  }
+  .our-plants{
+    width: 393px;
+    height: 117px;
+    bottom: 1px solid red;
+    margin: auto;
+
+  }
+  .cards-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+margin: auto;
   }
 }
