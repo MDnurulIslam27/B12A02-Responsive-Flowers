@@ -38,7 +38,7 @@
     width: 1140px;
     height: 71px;
     padding-right: 150px;
-    padding left:150px;
+
     
 }
 .logo{
@@ -72,7 +72,7 @@
     /* padding left:150px; */
     
 }
-.
+
 .banner-title{
     width:500px;
     /* height: 178px; */
@@ -91,13 +91,17 @@
      margin-right: 150px;
     
 }
-.banner-container{
-    width: 500px;
-    height: 299px;
+.our-plants{
+width: 1140px;
+height:138px;
 }
 
 
 
+.banner-container{
+    width: 500px;
+    height: 299px;
+}
 /* Responsive */
 @media only screen and (max-width: 600px) {
   .group {
@@ -111,7 +115,6 @@
   .logo-1{
     width: 361px;
     justify-content: space-between;
-    
     
     padding:0px;
     margin:10px 15px;
