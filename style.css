@@ -24,6 +24,15 @@
     font-size: 22px;
 
 }
+.font-2{
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.font-3{
+  font-size: 40px;
+  font-weight: bold;
+}
 .prm-color{
     color: rgba(0, 0, 0, 0.5);
 }
@@ -235,19 +244,19 @@ text-align: center;
   height: 533px;
 }
 .mail-section-title{
-  /* display: flex;
-  align-items: center; */
+  
   text-align: center;
-  /* margin-top: 50%; */
-  border: 1px solid orange;
-  padding-top:250px;
-
-  /* vertical-align: middle; */
+  
+  
+  padding-top:190px;
+ color: rgba(255, 255, 255, 1);
+ 
 
 }
 .mail{
   width: 644px;
   height: 50px;
+  font-size: 16px;
   
   
 }
@@ -256,11 +265,14 @@ text-align: center;
   height: 52px;
   background-color: rgba(233, 90, 8, 1);
   color: white;
+  font-size: 16px;
+  font-weight:600px;
+  border: none;
 
 }
 .mail-about{
   display: flex;
-  border: 1px solid blue;
+  
   padding-left: 20%;
   margin:0px;
 }
@@ -377,12 +389,25 @@ margin: auto;
     margin-top:60% ;
   }
   .mail-siction{
-    width: 100%;
+    width:100%;
+    /* margin-right:10%; */
+   
   }
   .mail-about{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left:15%;
+    padding-right: auto;
+     width: 218px; 
+     
+
   }
+  .mail-section-title{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  
+
   .footer-about{
     flex-direction: column;
     margin-left: 10px;
