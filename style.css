@@ -176,9 +176,17 @@ margin-left: 150px;
 
 .latest-deal-title{
   text-align: center;
+  border: 1px solid blue;
+  margin-top:100px;
 }
 .latest-deal-description{
   text-align: center;
+  width: 888px;
+  height: 54px;
+  margin-left: 276px;
+  margin-bottom: 150px;
+  border: 1px solid yellow;
+  
 }
 /* .card-layout{
   display: flex;
@@ -198,36 +206,55 @@ margin-left: 150px;
   margin-left: 150px;
   margin-right: 150px;
   position: relative;
+   margin-top: 100px;
 }
-.card-layout .card-layout-1-description {
+
+.card-layout-1-description {
   position:absolute;
   bottom:70%;
- right : 78%;
+ right : 75%;
   color:white;
-  border: 1px solid black;
+  
   text-align: center;
+  font-size: 18px;
+font-weight: bold;
+
   
 }
 .card-layout-2-description{
 position:absolute;
 bottom: 20%;
-right: 78%;
+right: 75%;
 color: white;
 text-align: center;
+font-size: 18px;
+font-weight: bold;
+
+
 }
 .card-layout-3-description{
   position:absolute;
-  bottom: 45%;
-  right:25%;
+  bottom: 30%;
+  right:13%;
   color: white;
   text-align: center;
+  margin: 0px;
+  
+ 
+
 }
   .card-image-1,.card-image-2, .card-image-3{
    border-radius: 14px;
+   filter: brightness(60%);
     
 
   }
-
+.card-image-3{
+  
+  
+  width: 753px;
+  height: 400px;
+}
   .link-1{
     align-items: center;
   }
@@ -388,9 +415,41 @@ margin: auto;
   .latest-deal{
     margin-top:60% ;
   }
+  .card-image-1{
+    margin-bottom: 20px;
+    margin-top: 30%;
+  }
+  .latest-deal-description{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .latest-deal-title{
+    margin-top: 90%;
+  }
+  
+   .card-layout-3-description,.link-2{
+    font-size: 20px;
+    margin-bottom: -40%;
+    margin-left: -10%;
+    
+    margin-top: 100px;
+    /* color: black; */
+   }
+   .card-layout-2-description,.link-3 
+   {font-size: 20px;
+    border: 2px solid blue;
+    margin-top: 70%;
+    color: black;
+
+   }
+    .card-layout-1-description,.link-1 {
+      font-size: 20px;
+      margin:auto -250px;
+      width: 300px;
+    }
   .mail-siction{
     width:100%;
-    /* margin-right:10%; */
+    
    
   }
   .mail-about{
