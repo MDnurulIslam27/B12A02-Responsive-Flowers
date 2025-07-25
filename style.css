@@ -22,6 +22,7 @@
 .font-1{
     font-weight:400px;
     font-size: 22px;
+
 }
 .prm-color{
     color: rgba(0, 0, 0, 0.5);
@@ -269,26 +270,24 @@ text-align: center;
   width: 1440px;
   height: 348px;
   margin-top: 50px;
-  border: 2px solid black;
+ 
 }
 .footer-about-container{
   margin-left: 150px;
   margin-top: 10px;
 
 }
-.footer-about-description{
-   
-}
+
 .footer-link-container-1,.footer-link-container-2{
   margin-top: 20px;
-    border: 1px solid red;
-    justify-items: center;
+   column-gap: 30px;
 
 }
 .footer-link{
   
 color: rgba(107, 114, 128, 1);
 text-decoration: none;
+font-size: 16px;
 
 }
 .footer-images{
@@ -296,6 +295,7 @@ text-decoration: none;
   margin-top: 20px;
   display: flex;
   gap: 15px;
+  
   
 }
 
@@ -385,5 +385,9 @@ margin: auto;
   }
   .footer-about{
     flex-direction: column;
+    margin-left: 10px;
+  }
+  .footer-about-container{
+    margin-left: 0px;
   }
 }
