@@ -170,20 +170,134 @@ margin-left: 150px;
 .latest-deal-description{
   text-align: center;
 }
-.card-layout{
+/* .card-layout{
   display: flex;
  border: 2px solid black;
  margin-left: 150px;
  margin-right: 150px;
+ position: relative;
+
  
-}
-.card-layout-1-description{
-  position:relative;
-  top:200px;
-  color: white;}
-/* .card-layout-1{
-position: relative;
 } */
+
+.card-layout{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  row-gap: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+}
+.card-layout .card-layout-1-description {
+  position:absolute;
+  bottom:70%;
+ right : 78%;
+  color:white;
+  border: 1px solid black;
+  text-align: center;
+  
+}
+.card-layout-2-description{
+position:absolute;
+bottom: 20%;
+right: 78%;
+color: white;
+text-align: center;
+}
+.card-layout-3-description{
+  position:absolute;
+  bottom: 45%;
+  right:25%;
+  color: white;
+  text-align: center;
+}
+  .card-image-1,.card-image-2, .card-image-3{
+   border-radius: 14px;
+    
+
+  }
+
+  .link-1{
+    align-items: center;
+  }
+
+
+.link-color{
+  color: white;
+  text-align: center;
+}
+
+.mail-siction{
+  background-image: url(assets/news-letter-bg.png);
+  width: 1440px;
+  height: 533px;
+}
+.mail-section-title{
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+  /* margin-top: 50%; */
+  border: 1px solid orange;
+  padding-top:250px;
+
+  /* vertical-align: middle; */
+
+}
+.mail{
+  width: 644px;
+  height: 50px;
+  
+  
+}
+.second-btn{
+  width: 186px;
+  height: 52px;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+
+}
+.mail-about{
+  display: flex;
+  border: 1px solid blue;
+  padding-left: 20%;
+  margin:0px;
+}
+.footer-about{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 348px;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.footer-about-container{
+  margin-left: 150px;
+  margin-top: 10px;
+
+}
+.footer-about-description{
+   
+}
+.footer-link-container-1,.footer-link-container-2{
+  margin-top: 20px;
+    border: 1px solid red;
+    justify-items: center;
+
+}
+.footer-link{
+  
+color: rgba(107, 114, 128, 1);
+text-decoration: none;
+
+}
+.footer-images{
+  margin-right: 150px;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  
+}
 
 
 /* Responsive */
@@ -243,5 +357,33 @@ margin: auto;
   }
   .badge-img{
     display: none;
+  }
+  .card-layout{
+    
+    grid-template-columns: repeat(1,1fr);
+    width: auto;
+    margin: auto;
+  }
+  .card-layout-1{
+     display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: auto;
+  }
+  .card-image-3,.card-image-2,.card-image-1{
+    width: 100%;
+  }
+  
+  .latest-deal{
+    margin-top:60% ;
+  }
+  .mail-siction{
+    width: 100%;
+  }
+  .mail-about{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-about{
+    flex-direction: column;
   }
 }
